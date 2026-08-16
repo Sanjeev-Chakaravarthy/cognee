@@ -5,7 +5,7 @@
   "type": "module",
   "description": "MCP App UIs served by the Cognee MCP server",
   "scripts": {
-    "build": "tsc --noEmit && cross-env INPUT=visualize-graph.html vite build",
+    "build": "node init && tsc --noEmit && cross-env INPUT=visualize-graph.html vite build",
     "watch": "cross-env INPUT=visualize-graph.html vite build --watch"
   },
   "dependencies": {
