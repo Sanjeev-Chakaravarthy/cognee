@@ -1,5 +1,4 @@
 .data
-.env
 .local.env
 .prod.env
 cognee/.data/
@@ -146,8 +145,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
-.env.local
 .venv
 env/
 venv/
@@ -188,7 +185,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 
-.vscode/
 cognee/data/
 cognee/cache/
 
@@ -211,3 +207,4 @@ deployment/helm/values-local.yml
 
 # Performance test results
 cognee/tests/performance/results
+config.bat
